@@ -17,7 +17,7 @@ function ambiguousCase() {
                 setTri("No triangle");
             } else if (sideA == h) {
                 setTri("Right triangle");
-            } else if (sideA > sideB) {
+            } else if (sideA >= sideB) {
                 setTri("One triangle");
             } else if (h < sideA < sideB) {
                 setTri("Two triangles (ambiguous case)");
