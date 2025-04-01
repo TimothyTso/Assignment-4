@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background for the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px; /* Smaller max-width for more compact form */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    font-size: 1.6em; /* Smaller font size */
+    margin-bottom: 15px;
+    color: #1e88e5; /* Blue color for the header */
+    font-weight: bold;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin-bottom: 6px; /* Reduced margin between label and input */
+    font-size: 0.95em; /* Smaller font size for labels */
+    color: #333;
+}
+
+/* Input Fields */
+input[type="number"],
+input[type="text"] {
+    width: 95%;
+    padding: 10px; /* Smaller padding */
+    margin-bottom: 15px; /* Reduced margin between inputs */
+    border: 1px solid #b3c7e6; /* Soft blue border */
+    border-radius: 6px; /* Slightly rounder corners */
+    font-size: 0.95em; /* Smaller font size for inputs */
+    color: #333;
+    background-color: #f8faff; /* Very light blue background */
+}
+
+/* Button Styles */
+input[type="submit"] {
+    background-color: #1e88e5; /* Blue button */
+    color: white;
+    padding: 12px; /* Smaller padding */
+    border: none;
+    border-radius: 6px;
+    font-size: 1em; /* Slightly smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1976d2; /* Darker blue on hover */
+}
+
+/* Disabled State for Read-only Inputs */
+input[readonly] {
+    background-color: #f0f4fb; /* Very light blue for read-only fields */
+    cursor: not-allowed;
+}
+
+/* Spacing and Layout Adjustments */
+form > div {
+    margin-bottom: 20px; /* Reduced space between form elements */
+}
+
+/* Styling for form container */
+input[type="number"] {
+    margin-bottom: 15px; /* Reduced space for number inputs */
+}
+
+input[type="text"] {
+    margin-bottom: 15px; /* Reduced space for text inputs */
+}
+
+/* Ensure everything is well-spaced and readable */
+input[type="text"]:disabled {
+    background-color: #f0f4fb; /* Light blue for disabled text inputs */
+}
