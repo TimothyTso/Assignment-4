@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Components.css';
 
-function PolynomialFunction() {
+function polynomialFunction() {
     const [coEff, setA] = useState();
     const [exp, setB] = useState();
     const [xVal, setC] = useState();
@@ -46,4 +46,4 @@ function PolynomialFunction() {
     )
 }
 
-export default PolynomialFunction;
+export default polynomialFunction;

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Components.css';
 
-function AmbiguousCase() {
+function ambiguousCase() {
     const [rangleA, setA] = useState();
     const [sideA, setB] = useState();
     const [sideB, setC] = useState();
@@ -49,4 +49,4 @@ function AmbiguousCase() {
     )
 }
 
-export default AmbiguousCase;
+export default ambiguousCase;
