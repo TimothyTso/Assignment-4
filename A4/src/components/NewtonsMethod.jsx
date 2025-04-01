@@ -3,7 +3,7 @@ import './Components.css';
 
 function newtonsMethod() {
     const [guess, setA] = useState();
-    const [root, setRoot] = useState("Press Calulate");
+    const [root, setRoot] = useState("Press Calculate");
 
     function newtMeth(e) {
         e.preventDefault();

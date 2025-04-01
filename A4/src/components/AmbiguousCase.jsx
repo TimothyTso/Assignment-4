@@ -5,7 +5,7 @@ function AmbiguousCase() {
     const [rangleA, setA] = useState();
     const [sideA, setB] = useState();
     const [sideB, setC] = useState();
-    const [tritype, setTri] = useState("Press Calulate");
+    const [tritype, setTri] = useState("Press Calculate");
 
     function ambigCase(e) {
         e.preventDefault();

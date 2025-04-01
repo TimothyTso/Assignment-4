@@ -5,8 +5,8 @@ function PolynomialFunction() {
     const [coEff, setA] = useState();
     const [exp, setB] = useState();
     const [xVal, setC] = useState();
-    const [dispFunc, setFunc] = useState("Press Calulate");
-    const [evalFunc, setEval] = useState("Press Calulate");
+    const [dispFunc, setFunc] = useState("Press Calculate");
+    const [evalFunc, setEval] = useState("Press Calculate");
 
     function polyFunc(e) {
         e.preventDefault();

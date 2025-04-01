@@ -1,93 +1,85 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* White background for the whole page */
+    background-color:rgb(247, 230, 230);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
 }
 
 form {
-    background-color: #ffffff; /* White background for the form */
+    background-color:white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 420px; /* Smaller max-width for more compact form */
+    max-width: 420px; 
     display: flex;
     flex-direction: column;
 }
 
-/* Header */
+
 .header {
     text-align: center;
-    font-size: 1.6em; /* Smaller font size */
+    font-size: 1.6em; 
     margin-bottom: 15px;
-    color: #1e88e5; /* Blue color for the header */
+    color: green;
     font-weight: bold;
 }
 
-/* Form Labels */
 label {
     display: block;
-    margin-bottom: 6px; /* Reduced margin between label and input */
-    font-size: 0.95em; /* Smaller font size for labels */
-    color: #333;
+    margin-bottom: 6px; 
+    font-size: 0.95em; 
 }
 
-/* Input Fields */
-input[type="number"],
-input[type="text"] {
+
+input[type="number"], input[type="text"] {
     width: 95%;
-    padding: 10px; /* Smaller padding */
-    margin-bottom: 15px; /* Reduced margin between inputs */
-    border: 1px solid #b3c7e6; /* Soft blue border */
-    border-radius: 6px; /* Slightly rounder corners */
-    font-size: 0.95em; /* Smaller font size for inputs */
-    color: #333;
-    background-color: #f8faff; /* Very light blue background */
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 6px; 
+    font-size: 0.95em; 
+    background-color: #f8faff; 
 }
 
 /* Button Styles */
 input[type="submit"] {
-    background-color: #1e88e5; /* Blue button */
+    background-color: green;
     color: white;
-    padding: 12px; /* Smaller padding */
+    padding: 12px; 
     border: none;
     border-radius: 6px;
-    font-size: 1em; /* Slightly smaller font size */
+    font-size: 1em; 
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 10px;
 }
 
 input[type="submit"]:hover {
-    background-color: #1976d2; /* Darker blue on hover */
+    background-color: #1976d2; 
 }
 
-/* Disabled State for Read-only Inputs */
 input[readonly] {
-    background-color: #f0f4fb; /* Very light blue for read-only fields */
+    background-color:  whitesmoke;
     cursor: not-allowed;
 }
 
-/* Spacing and Layout Adjustments */
 form > div {
-    margin-bottom: 20px; /* Reduced space between form elements */
+    margin-bottom: 20px; 
 }
 
 /* Styling for form container */
 input[type="number"] {
-    margin-bottom: 15px; /* Reduced space for number inputs */
+    margin-bottom: 15px; 
 }
 
 input[type="text"] {
-    margin-bottom: 15px; /* Reduced space for text inputs */
+    margin-bottom: 15px; 
 }
 
-/* Ensure everything is well-spaced and readable */
 input[type="text"]:disabled {
-    background-color: #f0f4fb; /* Light blue for disabled text inputs */
+    background-color: whitesmoke; 
 }

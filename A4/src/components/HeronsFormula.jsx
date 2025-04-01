@@ -5,7 +5,7 @@ function HeronsFormula() {
     const [sideA, setA] = useState();
     const [sideB, setB] = useState();
     const [sideC, setC] = useState();
-    const [area, setArea] = useState("Press Calulate");
+    const [area, setArea] = useState("Press Calculate");
 
     function herformula(e) {
         e.preventDefault();
